@@ -1,0 +1,27 @@
+.navbar-wrapper {
+    display: flex;
+    background-color: rgb(149, 149, 149);
+    width: 100%;
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navlinks-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            margin-left: 20px;
+        }
+
+        .active {
+            text-decoration: underline;
+        }
+    }
+    
+}
+
